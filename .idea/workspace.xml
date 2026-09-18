@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8f4ca969-254d-44be-9a89-c2440faf2f93" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;KkamWithAK&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/KkamWithAK/Forecast.git&quot;,
+    &quot;accountId&quot;: &quot;4d846292-76fd-4f0d-bfea-ed2e9f4a4852&quot;
+  }
+}</component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.000000000000749" />
+      <entry key="MS500" value="1.0037575291197842" />
+      <entry key="S2" value="1.2480882260636383" />
+      <entry key="S5" value="1.8308763749092694" />
+      <entry key="S10" value="4.027766682089716" />
+      <entry key="S30" value="15.942411877612575" />
+      <entry key="S60" value="39.93609310243258" />
+      <entry key="M2" value="86.54672196097341" />
+      <entry key="M5" value="156.05331516526897" />
+      <entry key="M10" value="193.81302297367748" />
+      <entry key="M15" value="208.7741607007492" />
+      <entry key="M30" value="225.12327802003173" />
+      <entry key="H1" value="233.8614027236406" />
+      <entry key="H2" value="238.3794298040478" />
+      <entry key="H4" value="240.67674208829" />
+      <entry key="D1" value="242.61097525937785" />
+      <entry key="W1" value="242.94438041127046" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="2.703464643637217E-100" />
+      <entry key="S2" value="1.2827609006626302E-25" />
+      <entry key="S5" value="1.1519570848665804E-10" />
+      <entry key="S10" value="1.2700897808333417E-5" />
+      <entry key="S30" value="0.03839046926344064" />
+      <entry key="S60" value="0.3447599352434887" />
+      <entry key="M2" value="1.1280207448156498" />
+      <entry key="M5" value="2.3859147938341883" />
+      <entry key="M10" value="3.0838373690533363" />
+      <entry key="M15" value="3.361838301828642" />
+      <entry key="M30" value="3.6663413311870374" />
+      <entry key="H1" value="3.8293498985500425" />
+      <entry key="H2" value="3.913696750544544" />
+      <entry key="H4" value="3.956600886883969" />
+      <entry key="D1" value="3.992732188686956" />
+      <entry key="W1" value="3.998960889950765" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="1.1001592566658067E-4" />
+      <entry key="MS500" value="0.16377215796224204" />
+      <entry key="S2" value="0.8517363854738799" />
+      <entry key="S5" value="1.6345053202772666" />
+      <entry key="S10" value="3.918661404266998" />
+      <entry key="S30" value="15.936405959796417" />
+      <entry key="S60" value="40.24488368686488" />
+      <entry key="M2" value="87.63975262851068" />
+      <entry key="M5" value="158.41441672510064" />
+      <entry key="M10" value="196.88147401154828" />
+      <entry key="M15" value="212.1249525999193" />
+      <entry key="M30" value="228.78366485770124" />
+      <entry key="H1" value="237.68766008542593" />
+      <entry key="H2" value="242.29155047856153" />
+      <entry key="H4" value="244.63254735871945" />
+      <entry key="D1" value="246.60357378186154" />
+      <entry key="W1" value="246.94332217986215" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3JLMAE02aVulncgBh55icpPG1lr" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Kaamil/Documents/Projects/Forecast&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;python.packages.toolwindow.project.migrated.to.right.top.v2&quot;: &quot;true&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;Python&quot;
+    ]
+  }
+}</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-eff1e8def5f5-5bd6d13a2a75-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-262.10315.174" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8f4ca969-254d-44be-9a89-c2440faf2f93" name="Changes" comment="" />
+      <created>1789435750070</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1789435750070</updated>
+      <workItem from="1789471006410" duration="673000" />
+      <workItem from="1789689646325" duration="749000" />
+      <workItem from="1789690409494" duration="47000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
