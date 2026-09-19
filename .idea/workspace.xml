@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f4ca969-254d-44be-9a89-c2440faf2f93" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,61 +39,61 @@
 }</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.000000000000749" />
-      <entry key="MS500" value="1.0037575291197842" />
-      <entry key="S2" value="1.2480882260636383" />
-      <entry key="S5" value="1.8308763749092694" />
-      <entry key="S10" value="4.027766682089716" />
-      <entry key="S30" value="15.942411877612575" />
-      <entry key="S60" value="39.93609310243258" />
-      <entry key="M2" value="86.54672196097341" />
-      <entry key="M5" value="156.05331516526897" />
-      <entry key="M10" value="193.81302297367748" />
-      <entry key="M15" value="208.7741607007492" />
-      <entry key="M30" value="225.12327802003173" />
-      <entry key="H1" value="233.8614027236406" />
-      <entry key="H2" value="238.3794298040478" />
-      <entry key="H4" value="240.67674208829" />
-      <entry key="D1" value="242.61097525937785" />
-      <entry key="W1" value="242.94438041127046" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0000021340201368" />
+      <entry key="S2" value="1.0449273222559776" />
+      <entry key="S5" value="1.8173474828863976" />
+      <entry key="S10" value="4.429081457817284" />
+      <entry key="S30" value="12.668731706776802" />
+      <entry key="S60" value="18.667106746508278" />
+      <entry key="M2" value="26.358217974606365" />
+      <entry key="M5" value="46.13896007943951" />
+      <entry key="M10" value="89.865780334968" />
+      <entry key="M15" value="132.46792841083385" />
+      <entry key="M30" value="215.6795074031802" />
+      <entry key="H1" value="284.90042315458385" />
+      <entry key="H2" value="329.9804910071863" />
+      <entry key="H4" value="355.7647393888814" />
+      <entry key="D1" value="379.1138669174662" />
+      <entry key="W1" value="383.29742919140267" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="2.703464643637217E-100" />
-      <entry key="S2" value="1.2827609006626302E-25" />
-      <entry key="S5" value="1.1519570848665804E-10" />
-      <entry key="S10" value="1.2700897808333417E-5" />
-      <entry key="S30" value="0.03839046926344064" />
-      <entry key="S60" value="0.3447599352434887" />
-      <entry key="M2" value="1.1280207448156498" />
-      <entry key="M5" value="2.3859147938341883" />
-      <entry key="M10" value="3.0838373690533363" />
-      <entry key="M15" value="3.361838301828642" />
-      <entry key="M30" value="3.6663413311870374" />
-      <entry key="H1" value="3.8293498985500425" />
-      <entry key="H2" value="3.913696750544544" />
-      <entry key="H4" value="3.956600886883969" />
-      <entry key="D1" value="3.992732188686956" />
-      <entry key="W1" value="3.998960889950765" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="6.953475495258245E-108" />
+      <entry key="S5" value="1.3705056052283296E-43" />
+      <entry key="S10" value="3.7036689490380196E-22" />
+      <entry key="S30" value="8.062609966651473E-8" />
+      <entry key="S60" value="4.2347715008676405E-4" />
+      <entry key="M2" value="0.041126555499205" />
+      <entry key="M5" value="0.805346960408247" />
+      <entry key="M10" value="2.496594517825241" />
+      <entry key="M15" value="3.813824238298845" />
+      <entry key="M30" value="6.0408039966546" />
+      <entry key="H1" value="7.726179340646487" />
+      <entry key="H2" value="8.776429296540746" />
+      <entry key="H4" value="9.364633466439356" />
+      <entry key="D1" value="9.890652816246925" />
+      <entry key="W1" value="9.984291991916674" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.1001592566658067E-4" />
-      <entry key="MS500" value="0.16377215796224204" />
-      <entry key="S2" value="0.8517363854738799" />
-      <entry key="S5" value="1.6345053202772666" />
-      <entry key="S10" value="3.918661404266998" />
-      <entry key="S30" value="15.936405959796417" />
-      <entry key="S60" value="40.24488368686488" />
-      <entry key="M2" value="87.63975262851068" />
-      <entry key="M5" value="158.41441672510064" />
-      <entry key="M10" value="196.88147401154828" />
-      <entry key="M15" value="212.1249525999193" />
-      <entry key="M30" value="228.78366485770124" />
-      <entry key="H1" value="237.68766008542593" />
-      <entry key="H2" value="242.29155047856153" />
-      <entry key="H4" value="244.63254735871945" />
-      <entry key="D1" value="246.60357378186154" />
-      <entry key="W1" value="246.94332217986215" />
+      <entry key="MS100" value="0.9659363289248456" />
+      <entry key="MS500" value="0.9930946117797864" />
+      <entry key="S2" value="1.0429742538830793" />
+      <entry key="S5" value="1.8129807765717472" />
+      <entry key="S10" value="4.421586363041305" />
+      <entry key="S30" value="12.662409824186744" />
+      <entry key="S60" value="18.66293864920921" />
+      <entry key="M2" value="26.395189742247126" />
+      <entry key="M5" value="46.93521330245071" />
+      <entry key="M10" value="92.3481720490913" />
+      <entry key="M15" value="136.26688307944758" />
+      <entry key="M30" value="221.70819187326353" />
+      <entry key="H1" value="292.6187547057088" />
+      <entry key="H2" value="338.75243885801797" />
+      <entry key="H4" value="365.1269760807657" />
+      <entry key="D1" value="389.00409702667093" />
+      <entry key="W1" value="393.2816602057138" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -105,6 +108,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
@@ -115,8 +119,10 @@
     &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Kaamil/Documents/Projects/Forecast&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;python.packages.toolwindow.project.migrated.to.right.top.v2&quot;: &quot;true&quot;,
@@ -128,6 +134,43 @@
     ]
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Kaamil\Documents\Projects\Forecast" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Forecast" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/backend" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/backend/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -145,6 +188,9 @@
       <workItem from="1789471006410" duration="673000" />
       <workItem from="1789689646325" duration="749000" />
       <workItem from="1789690409494" duration="47000" />
+      <workItem from="1789766550774" duration="2347000" />
+      <workItem from="1789815286869" duration="2909000" />
+      <workItem from="1789829119409" duration="101000" />
     </task>
     <servers />
   </component>
@@ -161,5 +207,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Forecast$main.coverage" NAME="main Coverage Results" MODIFIED="1789766633052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backend" />
   </component>
 </project>
