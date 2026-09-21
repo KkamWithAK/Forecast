@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f4ca969-254d-44be-9a89-c2440faf2f93" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/main.py" afterDir="false" />
+    <list default="true" id="8f4ca969-254d-44be-9a89-c2440faf2f93" name="Changes" comment="feat: created setup FastApi">
+      <change afterPath="$PROJECT_DIR$/backend/.env.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/weather.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,61 +40,61 @@
 }</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0000021340201368" />
-      <entry key="S2" value="1.0449273222559776" />
-      <entry key="S5" value="1.8173474828863976" />
-      <entry key="S10" value="4.429081457817284" />
-      <entry key="S30" value="12.668731706776802" />
-      <entry key="S60" value="18.667106746508278" />
-      <entry key="M2" value="26.358217974606365" />
-      <entry key="M5" value="46.13896007943951" />
-      <entry key="M10" value="89.865780334968" />
-      <entry key="M15" value="132.46792841083385" />
-      <entry key="M30" value="215.6795074031802" />
-      <entry key="H1" value="284.90042315458385" />
-      <entry key="H2" value="329.9804910071863" />
-      <entry key="H4" value="355.7647393888814" />
-      <entry key="D1" value="379.1138669174662" />
-      <entry key="W1" value="383.29742919140267" />
+      <entry key="MS100" value="1.0000000000000242" />
+      <entry key="MS500" value="1.0018934875042702" />
+      <entry key="S2" value="1.251244984568011" />
+      <entry key="S5" value="1.9797766509957648" />
+      <entry key="S10" value="2.8483937802776005" />
+      <entry key="S30" value="5.680141155449558" />
+      <entry key="S60" value="10.971145290425444" />
+      <entry key="M2" value="19.069890877883516" />
+      <entry key="M5" value="36.04928159049501" />
+      <entry key="M10" value="56.058791905584044" />
+      <entry key="M15" value="73.2673426307278" />
+      <entry key="M30" value="125.5119884962567" />
+      <entry key="H1" value="230.6065045348851" />
+      <entry key="H2" value="388.34493456326544" />
+      <entry key="H4" value="544.0613337412066" />
+      <entry key="D1" value="750.6200150321368" />
+      <entry key="W1" value="796.0794459123606" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="6.953475495258245E-108" />
-      <entry key="S5" value="1.3705056052283296E-43" />
-      <entry key="S10" value="3.7036689490380196E-22" />
-      <entry key="S30" value="8.062609966651473E-8" />
-      <entry key="S60" value="4.2347715008676405E-4" />
-      <entry key="M2" value="0.041126555499205" />
-      <entry key="M5" value="0.805346960408247" />
-      <entry key="M10" value="2.496594517825241" />
-      <entry key="M15" value="3.813824238298845" />
-      <entry key="M30" value="6.0408039966546" />
-      <entry key="H1" value="7.726179340646487" />
-      <entry key="H2" value="8.776429296540746" />
-      <entry key="H4" value="9.364633466439356" />
-      <entry key="D1" value="9.890652816246925" />
-      <entry key="W1" value="9.984291991916674" />
+      <entry key="MS100" value="6.682811367561055E-244" />
+      <entry key="MS500" value="2.3173511114901217E-49" />
+      <entry key="S2" value="6.938218300448174E-13" />
+      <entry key="S5" value="1.3693018157636453E-5" />
+      <entry key="S10" value="0.0037004078366629336" />
+      <entry key="S30" value="0.15467371998789778" />
+      <entry key="S60" value="0.39328580053524786" />
+      <entry key="M2" value="0.6271636412667684" />
+      <entry key="M5" value="0.8617149607997175" />
+      <entry key="M10" value="1.430079560082914" />
+      <entry key="M15" value="2.59403039377906" />
+      <entry key="M30" value="7.33815845577877" />
+      <entry key="H1" value="15.054847952085668" />
+      <entry key="H2" value="23.40266664542268" />
+      <entry key="H4" value="30.153774291797088" />
+      <entry key="D1" value="38.073373461850245" />
+      <entry key="W1" value="39.71657671153306" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9659363289248456" />
-      <entry key="MS500" value="0.9930946117797864" />
-      <entry key="S2" value="1.0429742538830793" />
-      <entry key="S5" value="1.8129807765717472" />
-      <entry key="S10" value="4.421586363041305" />
-      <entry key="S30" value="12.662409824186744" />
-      <entry key="S60" value="18.66293864920921" />
-      <entry key="M2" value="26.395189742247126" />
-      <entry key="M5" value="46.93521330245071" />
-      <entry key="M10" value="92.3481720490913" />
-      <entry key="M15" value="136.26688307944758" />
-      <entry key="M30" value="221.70819187326353" />
-      <entry key="H1" value="292.6187547057088" />
-      <entry key="H2" value="338.75243885801797" />
-      <entry key="H4" value="365.1269760807657" />
-      <entry key="D1" value="389.00409702667093" />
-      <entry key="W1" value="393.2816602057138" />
+      <entry key="MS100" value="0.05711446563933752" />
+      <entry key="MS500" value="0.5643071895496818" />
+      <entry key="S2" value="1.0227176182495343" />
+      <entry key="S5" value="1.7467096445948007" />
+      <entry key="S10" value="2.6329876529885685" />
+      <entry key="S30" value="5.693218141752345" />
+      <entry key="S60" value="11.266042825154514" />
+      <entry key="M2" value="19.633131333621332" />
+      <entry key="M5" value="36.87365803671041" />
+      <entry key="M10" value="57.46111729111075" />
+      <entry key="M15" value="75.83586158780031" />
+      <entry key="M30" value="132.8249686101049" />
+      <entry key="H1" value="245.6386796495091" />
+      <entry key="H2" value="411.7308357747795" />
+      <entry key="H4" value="574.2045605123902" />
+      <entry key="D1" value="788.6912133492626" />
+      <entry key="W1" value="835.7956996286827" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -105,36 +106,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Kaamil/Documents/Projects/Forecast&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;python.packages.toolwindow.project.migrated.to.right.top.v2&quot;: &quot;true&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "C:/Users/Kaamil/Documents/Projects/Forecast/backend",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.jshint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.jshint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "python.packages.toolwindow.project.migrated.to.right.top.v2": "true",
+    "settings.editor.selected.configurable": "project.scopes",
+    "to.speed.mode.migration.done": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;Python&quot;
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "Python"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Kaamil\Documents\Projects\Forecast\backend" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Kaamil\Documents\Projects\Forecast" />
     </key>
@@ -190,8 +195,53 @@
       <workItem from="1789690409494" duration="47000" />
       <workItem from="1789766550774" duration="2347000" />
       <workItem from="1789815286869" duration="2909000" />
-      <workItem from="1789829119409" duration="101000" />
+      <workItem from="1789829119409" duration="6909000" />
+      <workItem from="1789944710533" duration="57000" />
+      <workItem from="1789944775974" duration="2218000" />
+      <workItem from="1790002545028" duration="4461000" />
+      <workItem from="1790029030037" duration="39000" />
     </task>
+    <task id="LOCAL-00001" summary="feat: created setup FastApi">
+      <option name="closed" value="true" />
+      <created>1789829251604</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1789829251604</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat: created setup FastApi">
+      <option name="closed" value="true" />
+      <created>1789829286408</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1789829286408</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: created setup FastApi">
+      <option name="closed" value="true" />
+      <created>1789829293178</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1789829293178</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat: created setup FastApi">
+      <option name="closed" value="true" />
+      <created>1789829299955</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1789829299955</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat: created setup FastApi">
+      <option name="closed" value="true" />
+      <created>1789829314964</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1789829314964</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,7 +258,12 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: setup FastApi" />
+    <MESSAGE value="feat: created setup FastApi" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: created setup FastApi" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Forecast$main.coverage" NAME="main Coverage Results" MODIFIED="1789766633052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backend" />
+    <SUITE FILE_PATH="coverage/Forecast$main.coverage" NAME="main Coverage Results" MODIFIED="1789945433976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backend" />
   </component>
 </project>
